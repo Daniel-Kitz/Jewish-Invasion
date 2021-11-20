@@ -1,0 +1,67 @@
+government = monarchy
+add_government_reform = prussian_monarchy
+government_rank = 1
+primary_culture = hebrew
+religion = jewish
+technology_group = western
+capital = 236 # London
+add_army_professionalism = 0.05
+historical_friend = FRA  # France
+historical_friend = HAB  # Austria
+historical_friend = ARA  # Aragon
+historical_friend = XXB  # Israel
+
+1444.1.1 = {
+	monarch = {
+		name = "Filip"
+		dynasty = "von David"
+		birth_date = 1425.12.30
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = scholar_personality
+
+	queen = {
+		name = "Ruth"
+		dynasty = "von David"
+		female = yes
+		country_of_origin = "XXB"
+		birth_date = 1430.1.19
+		death_date = 1716.3.1
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}
+
+1444.5.3 = {
+	heir = {
+		name = "Boleslaw"
+		monarch_name = "Boleslaw"
+		dynasty = "von David"
+		birth_date = 1444.4.20
+		death_date = 1716.3.1
+		claim = 100
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = scholar_personality
+	add_heir_personality = free_thinker_personality
+}
+
+1444.5.4 = {
+	leader = {
+		name = "Superior Explorer"
+		type = explorer
+		fire = 0
+		shock = 0
+		siege = 0
+		manuever = 6
+		death_date = 1716.3.1
+	}
+}

@@ -1,0 +1,34 @@
+#Country Name: Please see filename.
+
+graphical_culture = africangfx
+
+color = { 100  50  150 }
+revolutionary_colors = { 15  6  16 }
+
+monarch_names = {
+	"Filip" = 25
+	"Kazimierz" = 25
+	"Szymon" = 25
+	"Boleslaw" = 25
+	"Waclaw" = 1
+	"Cyprian" = 1
+	"L U K A S" = 1
+	"P A S S I" = 1
+
+	"Gaya" = -1
+	"Big Gaya" = -1
+	"Lesba" = -1
+	"Big Lesba" = -1
+}
+
+leader_names = {
+	Gay Gaylord "von Gay" Biggus "Biggus Dickus" Schwanzus "Extremus"
+}
+
+army_names = {
+	"A of $PROVINCE$"
+}
+
+fleet_names = {
+	"F of $PROVINCE$"
+}
